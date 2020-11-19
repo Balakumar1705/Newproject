@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Verifying Addactin Login details",
+        "description": "",
+        "id": "verifying-the-addactin-details;verifying-addactin-login-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10865421700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the Addactin Page",
+            "match": {
+              "location": "LoginPageSteps.user_is_on_the_Addactin_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 458615700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Should enter \"Bala\" and \"Bala\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bala\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Bala\"",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginPageSteps.user_Should_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 415170400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should click login button",
+            "match": {
+              "location": "LoginPageSteps.user_should_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20879800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should verify the msg",
+            "match": {
+              "location": "LoginPageSteps.user_should_verify_the_msg()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying the addactin details",
+    "description": "",
+    "id": "verifying-the-addactin-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/LoginPage.feature",
+    "tags": []
+  }
+]
